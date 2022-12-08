@@ -53,7 +53,7 @@ for st in repeater_user:
 	print(': \n')
 	for submissions2 in posts_user:
 		user_posts.append(submissions2.title)
-		print(str(get_date(submission)), end='')
+		print(str(get_date(submissions2)), end='')
 		print('\t', end='')
 		print(submissions2.subreddit, end='')
 		print('\n\t\t\t', end='')
